@@ -3,8 +3,6 @@ import Header from "./Header/Header";
 import "./Hero.css";
 import hero_image from "../assets/hero_image.png";
 import hero_image_back from "../assets/hero_image_back.png";
-import Heart from "../assets/heart.png";
-import Calories from "../assets/calories.png";
 import NumberCounters from "number-counter";
 import { motion } from "framer-motion";
 
@@ -23,22 +21,22 @@ export const Hero = () => {
             whileInView={{ left: "8px" }}
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
-          <span>The best fitness club in the town</span>
+          <span>Instilling Knowledge, inspiring stories</span>
         </div>
 
         {/*Hero heading*/}
         <div className="hero-text">
           <div>
-            <span className="stroke-text">Shape </span>
-            <span>Your</span>
+            <span className="stroke-text">Ready to </span>
+            <span>level up</span>
           </div>
           <div>
-            <span>Ideal Body</span>
+            <span>your math skills</span>
           </div>
           <div>
             <span>
-              in here we will help you to shape and build your ideal body and
-              live up your lifeto fullest
+              "Unlock your true potential - learn smart, score high and build a
+              future full of possibilities"
             </span>
           </div>
         </div>
@@ -47,42 +45,27 @@ export const Hero = () => {
         <div className="figures">
           <div>
             <span>
-              <NumberCounters end={140} start={100} delay="4" preFix="+" />
+              <NumberCounters end={15} start={8} delay="4" preFix="+" />
             </span>
-            <span>Expert coaches</span>
+            <span>Expert Teachers</span>
           </div>
           <div>
             <span>
-              <NumberCounters end={978} start={800} delay="4" preFix="+" />
+              <NumberCounters end={460} start={400} delay="4" preFix="+" />
             </span>
-            <span>member joined</span>
+            <span>Successful Students</span>
           </div>
           <div>
             <span>
-              <NumberCounters end={50} start={0} delay="4" preFix="+" />
+              <NumberCounters end={25} start={18} delay="4" preFix="+" />
             </span>
-            <span>fitness programs</span>
+            <span>Subjects Offered</span>
           </div>
         </div>
         {/*hero buttons*/}
-        <div className="hero-buttons">
-          <button className="btn">Get started</button>
-          <button className="btn">Learn more</button>
-        </div>
+       
       </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
-        <motion.div
-          initial={{ right: "-1rem" }}
-          whileInView={{ right: "4rem" }}
-          transition={transition}
-          className="heart-rate"
-        >
-          <img src={Heart} alt="" />
-          <span>Heart Rate</span>
-          <span> 116 bpm</span>
-        </motion.div>
-
         {/* hero image */}
         <img src={hero_image} alt="" className="hero-image" />
         <motion.img
@@ -95,18 +78,6 @@ export const Hero = () => {
         />
 
         {/* calories */}
-        <motion.div
-          initial={{ right: "37rem" }}
-          whileInView={{ right: "28rem" }}
-          transition={transition}
-          className="calories"
-        >
-          <img src={Calories} alt="" />
-          <div>
-            <span>Calories Burned</span>
-            <span>220 Kcal</span>
-          </div>
-        </motion.div>
       </div>
     </div>
   );

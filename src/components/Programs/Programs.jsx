@@ -8,15 +8,15 @@ const Programs = () => {
     <div className="Programs" id="programs">
       {/*header*/}
       <div className="programs-header">
-        <span className="stroke-text">Explore our</span>
-        <span>Programs</span>
-        <span className="stroke-text">to shape you</span>
+        <span className="stroke-text">Trust</span>
+        <span>smart work</span>
+        <span className="stroke-text">success</span>
       </div>
 
       <div className="program-categories">
         {programsData.map((program) => (
           <div className="category">
-            {program.image}
+            <img src={program.icon} alt="Math Symbol" className="icon" />
             <span>{program.heading}</span>
             <span>{program.details}</span>
             <div className="join-now">

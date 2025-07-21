@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import Logo from "../../assets/logo.png";
-import Bars from "../../assets/bars.png";
+import Logo from "../../assets/logos.png";
 import { Link } from "react-scroll";
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -17,13 +16,7 @@ const Header = () => {
             borderRadius: "5px",
           }}
           onClick={() => setMenuOpened(true)}
-        >
-          <img
-            src={Bars}
-            alt=""
-            style={{ width: "1.5rem", height: "1.5rem" }}
-          />
-        </div>
+        ></div>
       ) : (
         <ul className="header-menu">
           <li>
@@ -43,7 +36,7 @@ const Header = () => {
               span={true}
               smooth={true}
             >
-              Programs
+              Subjects
             </Link>
           </li>
           <li>
@@ -54,16 +47,6 @@ const Header = () => {
               smooth={true}
             >
               Why us
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={() => setMenuOpened(false)}
-              to="plans"
-              span={true}
-              smooth={true}
-            >
-              Plans
             </Link>
           </li>
 

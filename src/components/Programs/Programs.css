@@ -51,7 +51,7 @@
   width: 1rem;
 }
 .category:hover {
-  background: var(--planCard);
+  background: var(--orange);
   cursor: pointer;
 }
 @media screen and (max-width: 786px) {

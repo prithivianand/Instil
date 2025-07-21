@@ -15,7 +15,7 @@ const Testimonials = () => {
     <div className="testimonials">
       <div className="left-t">
         <span>Testimonials</span>
-        <span className="stroke-text">What they</span>
+        <span className="stroke-text">What Our Students</span>
         <span>say about us</span>
         <motion.span
           key={selected}
@@ -27,10 +27,13 @@ const Testimonials = () => {
           {testimonialsData[selected].review}
         </motion.span>
         <span>
-          <span style={{ color: "var(--orange)" }}>
+          <span style={{ color: "var(--lightgray)" }}>
             {testimonialsData[selected].name}
           </span>{" "}
-          - {testimonialsData[selected].status}
+          -{" "}
+          <span style={{ color: "black" }}>
+            {testimonialsData[selected].status}
+          </span>
         </span>
       </div>
       <div className="right-t">
