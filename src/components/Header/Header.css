@@ -20,14 +20,21 @@
 }
 
 @media screen and (max-width: 786px) {
-  .header > :nth-child(2){
+  .header > :nth-child(2) {
     position: fixed;
     right: 2rem;
     z-index: 99;
   }
-  .header-menu{
+  .header-menu {
     flex-direction: column;
     background-color: var(--appColor);
     padding: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 25rem;
+    height: 5rem;
+    border-radius: 10px;
   }
 }

@@ -142,3 +142,22 @@
     margin-left: -1rem;
   }
 }
+
+@media screen and (max-width: 786px) {
+  .address-section {
+    padding: 20px;
+    margin-left: 5rem;
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff; /* Dark gray for clarity */
+  }
+  .contact-container {
+    background-color: var(-caloryCard);
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
+    margin-left: -5.5rem;
+    margin-top: -1rem;
+  }
+}
