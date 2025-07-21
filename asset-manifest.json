@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Instil/static/css/main.5cf4a464.css",
+    "main.js": "/Instil/static/js/main.f5aa8e63.js",
+    "static/media/t-image2.png": "/Instil/static/media/t-image2.c7ed7e12e5d8488eb6bc.png",
+    "static/media/image1.png": "/Instil/static/media/image1.afc4341e69fa56add0c9.png",
+    "static/media/hero_image_back.png": "/Instil/static/media/hero_image_back.b5f1105bf25f49c6c49d.png",
+    "static/media/image2.png": "/Instil/static/media/image2.0a65dca4e529823665b9.png",
+    "static/media/t-image1.png": "/Instil/static/media/t-image1.e42c235dc0c409a8f2ec.png",
+    "static/media/t-image3.png": "/Instil/static/media/t-image3.125c747a1159d79f0729.png",
+    "static/media/image4.png": "/Instil/static/media/image4.26ea5e372deccaabed92.png",
+    "static/media/image3.png": "/Instil/static/media/image3.e4b3ec37c89b723eda2c.png",
+    "static/media/hero_image.png": "/Instil/static/media/hero_image.2e7b4d0110affe47a37d.png",
+    "static/media/logos.png": "/Instil/static/media/logos.b7f908fd633ab97d8a3d.png",
+    "static/media/math-symbol.png": "/Instil/static/media/math-symbol.95d31d13bd8466d26731.png",
+    "static/media/tick.png": "/Instil/static/media/tick.556a179fc5ebce5fad2f.png",
+    "static/media/aptitude.png": "/Instil/static/media/aptitude.785b627b90be0e577271.png",
+    "static/media/engg-symbol.png": "/Instil/static/media/engg-symbol.79862008a01e8c9c647e.png",
+    "index.html": "/Instil/index.html",
+    "main.5cf4a464.css.map": "/Instil/static/css/main.5cf4a464.css.map",
+    "main.f5aa8e63.js.map": "/Instil/static/js/main.f5aa8e63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf4a464.css",
+    "static/js/main.f5aa8e63.js"
+  ]
+}
