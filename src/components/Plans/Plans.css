@@ -59,3 +59,17 @@
   top: 10rem;
   right: 0rem;
 }
+@media screen and (max-width: 550px) {
+  .contact-form button {
+    margin-top: 40px;
+    width: 40%;
+    padding: 10px;
+    background-color: #016795;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 6.5rem;
+  }
+}
