@@ -72,4 +72,13 @@
     font-weight: bold;
     margin-left: 6.5rem;
   }
+  .contact-form {
+    width: 300px;
+    margin: auto;
+    background-color: #2b2a2a;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    margin-top: 2rem;
+  }
 }
